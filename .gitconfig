@@ -1,0 +1,11 @@
+[user]
+	name = Aaron Boyd
+	email = aaronyo@yahoo.com
+[color]
+	ui = auto
+[merge]
+	conflictstyle = diff3
+[alias]
+	st = status -sb
+	mg = merge --no-ff
+	ff = merge
