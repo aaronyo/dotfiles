@@ -2,7 +2,7 @@
 	name = Aaron Boyd
 	email = aaronyo@yahoo.com
 [core]
-	excludesfile = /Users/aaronyo/.gitignore
+	excludesfile = ~/.gitignore
 [color]
 	ui = auto
 [merge]
