@@ -1,13 +1,29 @@
 [user]
+	email = aaron.t.boyd@gmail.com
 	name = Aaron Boyd
-	email = aaronyo@yahoo.com
+[push]
+	default = simple
 [core]
-	excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore
 [color]
-	ui = auto
+    ui = auto
 [merge]
-	conflictstyle = diff3
+    conflictstyle = diff3
+	tool = Kaleidoscope
 [alias]
-	st = status -sb
-	mg = merge --no-ff
-	ff = merge
+    st = status -sb
+    mg = merge --no-ff
+    ff = merge
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustexitcode = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+[mergetool]
+	prompt = false
+[diff]
+	tool = Kaleidoscope
+[branch]
+	autosetuprebase = always
