@@ -27,3 +27,5 @@
 	tool = Kaleidoscope
 [branch]
 	autosetuprebase = always
+[pull]
+	rebase = true
