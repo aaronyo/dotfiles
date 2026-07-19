@@ -9,3 +9,5 @@
 
 # NFS junk
 ._*
+
+**/.claude/settings.local.json
