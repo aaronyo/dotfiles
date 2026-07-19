@@ -112,3 +112,13 @@ export NVM_DIR="$HOME/.nvm"
 
 # For Emacs 24bit color support
 export COLORTERM=truecolor
+
+# TiqAssist
+cdt() {
+    # If no argument is provided, default to the base folder
+    if [ -z "$1" ]; then
+        cd ~/tiqassist || return
+    else
+        cd ~/tiqassist/"$1" || return
+    fi
+}
