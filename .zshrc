@@ -1,3 +1,6 @@
+# Add standard home directory bin folder
+export PATH="/Users/aaronboyd/.local/bin:$PATH"
+
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/utils/bin:$PATH
 
