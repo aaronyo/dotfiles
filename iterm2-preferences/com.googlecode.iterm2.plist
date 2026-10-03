@@ -32,6 +32,8 @@
 	<true/>
 	<key>Default Bookmark Guid</key>
 	<string>B205F8E5-0CF0-49B9-A2D3-BAB16BC7C11D</string>
+	<key>Default Browser Profile Guid</key>
+	<string>AFB4DD30-F972-4705-98E5-DC20851AEA3B</string>
 	<key>FlashTabBarInFullscreen</key>
 	<true/>
 	<key>GlobalKeyMap</key>
@@ -1656,6 +1658,8 @@
 	<false/>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
+	<key>com.apple.WebPrivacy.ResourceMonitorURLsVersion</key>
+	<string>qrsAAAGeI2k9AODoQYs=</string>
 	<key>findIgnoreCase_iTerm</key>
 	<true/>
 	<key>findMode_iTerm</key>
