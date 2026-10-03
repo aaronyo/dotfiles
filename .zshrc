@@ -122,3 +122,9 @@ cdt() {
         cd ~/tiqassist/"$1" || return
     fi
 }
+
+# Tab-complete cdt with directories under ~/tiqassist (nested paths work too)
+_cdt() {
+    _path_files -W ~/tiqassist -/
+}
+compdef _cdt cdt
